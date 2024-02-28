@@ -1,0 +1,68 @@
+
+// Program: Ultimate Supply Demand MT5
+// Developer's Site: forexroboteasy.com
+// Development Name: Forex Robot Easy Team
+
+// Import necessary libraries
+#include <Trade\Trade.mqh>
+#include <Technical\Indicator\Market.mqh>
+
+// Define constants
+#define SYMBOL 'EURUSD'
+#define TIMEFRAME PERIOD_H1
+#define DATA_INTERVAL 100
+
+// Define global variables
+CTrade trade;
+CMarket market;
+
+// Define function to analyze historical data using Neural Networks
+void analyzeData(){
+   // TODO: Implement neural network functionality for data analysis
+}
+
+// Define function to identify critical price levels
+void identifyPriceLevels(){
+   // TODO: Implement code to identify critical price levels
+}
+
+// Define function to detect supply and demand zones
+void detectSupplyDemandZones(){
+   // TODO: Implement code to detect supply and demand zones
+}
+
+// Define function to generate insights and analysis
+void generateAnalysis(){
+   // TODO: Implement code to generate insights and analysis
+}
+
+// Define function to display identified price levels, supply and demand zones, and analysis
+void displayUI(){
+   // TODO: Implement user-friendly interface to display information
+}
+
+// Define function to backtest identified price levels and supply and demand zones
+void backtestData(){
+   // TODO: Implement functionality for backtesting against historical data
+}
+
+// Define entry point of the program
+void OnStart(){
+   // Analyze historical data using Neural Networks
+   analyzeData();
+   
+   // Identify critical price levels
+   identifyPriceLevels();
+   
+   // Detect supply and demand zones
+   detectSupplyDemandZones();
+   
+   // Generate insights and analysis
+   generateAnalysis();
+   
+   // Display user interface
+   displayUI();
+   
+   // Backtest identified price levels and supply and demand zones
+   backtestData();
+}
